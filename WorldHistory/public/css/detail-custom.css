@@ -1,0 +1,81 @@
+.clear{
+	clear: both;
+}
+
+.row{
+	margin:0 -15px;
+}
+
+.col-md-9, .col-md-3{
+	padding: 0;
+}
+
+.view{
+	float: right;
+}
+
+/*-----------------NAV----------------------*/
+.navbar-nav>li>.dropdown-menu{
+	background-color: #F2B32E;
+}
+
+.navbar-inverse .navbar-nav .open .dropdown-menu>li>a{
+	color: black;
+}
+
+.navbar-inverse .navbar-nav .open .dropdown-menu>li>a:hover{
+	background-color: #F2B32E;
+}
+
+/*-------------------BREADCRUMB-------------*/
+.breadcrumb{
+	background-color: transparent;
+	margin-bottom: 10px;
+}
+
+/*-----------------CONTENT------------------*/
+.main-content{
+	background-color: white;
+	border-radius: 5px;
+	border: 1px solid #f1f1f1;
+	padding: 3px 10px;
+	margin: 20px;
+}
+
+.tab-content{
+	padding: 5px;
+}
+
+/*------------------COMMENT------------------*/
+
+#btnComment{
+	font-size: 15px;
+	margin: 0;
+	float: right;
+}
+
+/*-----------------ASIDE-BAR------------------*/
+.panel-default>.panel-heading{
+	color: black;
+	background-color: #d79922;
+	border-color: #d79922;
+	font-size: 20px;
+}
+
+.panel{
+	margin: 20px 20px 10px 0;
+}
+
+.post img{
+	margin: 0 auto;
+}
+
+.post blockquote{
+	text-align: center;
+}
+.post table tr td{
+	padding:5px;
+}
+.post table tr th{
+	padding: 0 5px 5px;
+}

@@ -1,0 +1,41 @@
+.panel .row{
+	margin: 0;
+	padding: 10px 15px;
+}
+
+/*-------------------------------LIST-MENU-----------------------------*/
+.list-group{
+	margin: 20px;
+}
+
+.list-group-item.active, .list-group-item.active:focus, .list-group-item.active:hover, .panel-default>.panel-heading{
+	background-color: #d79922;
+	border-color: #d79922;
+	color: black;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.list-group-item>a{
+	color: black;
+}
+
+.panel{
+	margin: 20px;
+}
+
+.col-md-9, .col-md-3{
+	padding: 0;
+}
+
+.container-fuild{
+	padding: 0 15px;
+}
+
+/*------------------------------CONTENT------------------------------------*/
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover,.btn.btn-primary{
+	color: black;
+	background-color: #d79922;
+	border-color: #d79922;
+}
+
